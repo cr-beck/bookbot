@@ -15,6 +15,8 @@ def main():
     character_count = get_book_character_count("books/frankenstein.txt")
     sorted_list = sort_character_count(character_count)
     
+    for dict in sorted_list:
+        for char in dict:
 
 
 main()
